@@ -66,5 +66,5 @@ def main():
     except Exception as e:
         print(f"❌ 發送失敗：{e}")
 
-if __name__ == '__main__':  # ✅ 正確：雙底線
-main()
+if __name__ == '__main__':
+    main()                # ✅ 有4個空格縮排
