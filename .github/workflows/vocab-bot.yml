@@ -3,7 +3,7 @@ name: LINE Vocab Bot
 on:
   schedule:
     # 每5分鐘執行一次 (UTC時間)
-    - cron: '*/1 * * * *'
+    - cron: '*/1 * * * *'  # ✅ 每1分鐘
   workflow_dispatch: # 允許手動觸發
 
 jobs:
